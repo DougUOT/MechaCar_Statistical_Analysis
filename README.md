@@ -114,7 +114,7 @@ Moreover, the standard deviation of lot 3 has a high difference compared to lots
 ![](https://github.com/DougUOT/MechaCar_Statistical_Analysis/blob/main/Resources/Images/Capture15_3_Code.PNG)
 
 * An RScript is written for three t-tests that compare each manufacturing lot against mean PSI of the population
-* * There is a summary of the t-test results across all manufacturing lots and for each lot  
+* There is a summary of the t-test results across all manufacturing lots and for each lot  
 
 In our project, we will write an RScript using the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
 
@@ -126,17 +126,17 @@ Next, we will write three more RScripts in our project using the t.test() functi
 
 Follow below an brief analysis for each lot.
 
-Manufacturing lot 1:
+  * Manufacturing lot 1:
 
 According to the results, we do have a p-value of 1, and mean of 1500, definitely, we must fail to reject the null hypothesis and also the manufacturing lot 1 is not statistically different from the population mean of 1,500 pounds per square inch.
 
-Manufacturing lot 2:
+  * Manufacturing lot 2:
 
 According to the results, we do have a p-value of 0.6072, and mean of 1500.02, definitely, we must fail to reject the null hypothesis and also the manufacturing lot 1 is not statistically different from the population mean of 1,500 pounds per square inch.
 
-Manufacturing lot 3:
+  * Manufacturing lot 3:
 
-According to the results, we do have a p-value of 0.04168, and mean of 1496.14. The p-value result of the Manufacturing lot 3 had a different result when we compared to the results of lots 1 and 2, which is much smaller than our assumed significance level of 0.05%, we must reject the null hypothesis and the two menas are  statistically different.
+According to the results, we do have a p-value of 0.04168, and mean of 1496.14. The p-value result of the Manufacturing lot 3 had a different result when we compared to the results of lots 1 and 2, which is much smaller than our assumed significance level of 0.05%, we must reject the null hypothesis and we assume that the two means are  statistically different.
 
 ![](https://github.com/DougUOT/MechaCar_Statistical_Analysis/blob/main/Resources/Images/Capture15_3_2.PNG)
 
@@ -148,12 +148,12 @@ We will Using our knowledge of R, design a statistical study to compare performa
 
 * What metric or metrics are you going to test?
 
-** Sales price (Numeric and Continuous variables): Sales price of a new car on the market. Goal is to buy sales price with competitors, whether cheaper or expensive
-** City fuel efficiency (Numerical and Continuous variables) How many liters of fuel the car uses in a 1 km in the city or urban traffic. The objective is to verify if the car is economical in the use of fuel in the city vs competitors.
-** Highway fuel efficiency (Numeric and Continuous variables) How many liters of fuel does the car use in 1 km on the road. The objective is to verify if the car is economical in the use of fuel on the road vs competitors.
-** Maintenance cost (Numeric and Continuous variables) What is the average maintenance cost per year. The objective is to compare the average maintenance cost (oil change, etc) per year vs competitors.
-** Odometer (Numeric and Continuous variables) How many km driven after the car was first purchased. The objective is to check if the car has many km driven or how many km this used car has vs competitors.
-**Resale price (Numeric and Continuous variables) what is the resale price considering the car is used. The objective is to verify what the resale price would be after being used, if the car is still valued or if the car has depreciated against the prices of used cars of the competition.
+  * Sales price (Numeric and Continuous variables): Sales price of a new car on the market. The goal is to compare sales price with sales price of the competitors, whether cheaper or expensive
+  * City fuel efficiency (Numerical and Continuous variables) How many liters of fuel the car uses in a 1 km in the city or urban traffic. The objective is to verify if the car is economical in the use of fuel in the city vs competitors.
+  * Highway fuel efficiency (Numeric and Continuous variables) How many liters of fuel does the car use in 1 km on the road. The objective is to verify if the car is economical in the use of fuel on the road vs competitors.
+  * Maintenance cost (Numeric and Continuous variables) What is the average maintenance cost per year. The objective is to compare the average maintenance cost (oil change, etc) per year vs competitors.
+  * Odometer (Numeric and Continuous variables) How many km driven after the car was first purchased. The objective is to check if the car has many km driven or how many km this used car has vs competitors.
+  * Resale price (Numeric and Continuous variables) what is the resale price considering the car is used. The objective is to verify what the resale price would be after being used, if the car is still valued or if the car has depreciated against the prices of used cars of the competition.
 
 * What is the null hypothesis or alternative hypothesis?
 
@@ -162,11 +162,13 @@ The null and alternate hypotheses are used to explain one of two outcomes from o
 Notice that our null hypothesis the situation that our outcomes can be clarified by irregular possibility with no external impact. Conversely, our substitute theory addresses whatever other situation that our outcomes could yield.
 When we laid out our null and alternate hypothesis, we would then have to distinguish a statistical analysis to survey in the event that our invalid theory is valid.
 
-** Ho | Null Hypothesis: When comparing MerchCar's variables with competitors, do customers have a perceived price value?
-** Ha | Alternative Hypothsis: When comparing MerchCar's variables to competitors, do customers NOT have a perceived price value? 
+     * Ho | Null Hypothesis: When comparing MerchCar's variables with competitors, do customers have a perceived price value?
+     * Ha | Alternative Hypothsis: When comparing MerchCar's variables to competitors, do customers NOT have a perceived price value? 
 
 
 * What statistical test would you use to test the hypothesis? And why?
+
+Below is a brief explanation based on the theoretical class at the University of Toronto, in the Data Analytics bootcamp course. 
 
 In spite of the fact that information assortment and examination are significant, the foundation of the logical technique is hypothesis testing. Hypotheses are used by the logical technique to assist with limiting the extent of exploration and testing as well as give a reasonable result of our outcomes. Without creating a bunch of hypothesis, it turns out to be dramatically more hard to evaluate results and give quantifiable results to our analyses. As data analysts, we must match a bunch of hypotheses to an appropriate statistical test to guarantee that outcomes are deciphered accurately.
 

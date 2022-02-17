@@ -80,10 +80,10 @@ CODE & IMAGE
 
 Follow below a brief detail and interpretation of all summary statistics of the suspension coil: 
 
-** Mean is the sum of all values divided by the total or count of the number of values;
-** Median is the middle value of the data set or numbers;
-** Variance is how far a set of data values are spread out from their mean;
-** Standard deviation is an action that is used to to evaluate how much variety or scattering of a set of data values; 
+  * Mean is the sum of all values divided by the total or count of the number of values;
+  * Median is the middle value of the data set or numbers;
+  * Variance is how far a set of data values are spread out from their mean;
+  * Standard deviation is an action that is used to to evaluate how much variety or scattering of a set of data values; 
 
 Mean PSI with 1498.78, Median PSI with 1500, Variance (Var_PSI) with 62.29 and Standard deviation (Std_Dev_PSI) with 7.892627
 

@@ -17,7 +17,7 @@ Follow below the goals for this module:
 
 ## Resources
 
-* Data Source: [MechaCar_mpg.csv](https://github.com/DougUOT/MechaCar_Statistical_Analysis/blob/main/Resources/MechaCar_mpg.csv), and the database is available on [MechaCar_mpg.csv](https://github.com/DougUOT/MechaCar_Statistical_Analysis/blob/main/Resources/MechaCar_mpg.csv) and [Suspension_Coil.csv](https://github.com/DougUOT/MechaCar_Statistical_Analysis/blob/main/Resources/Suspension_Coil.csv)
+* Data Source: [MechaCarChallenge.R](https://github.com/DougUOT/MechaCar_Statistical_Analysis/blob/main/MerchaCarChallenge.R), and the database is available on [MechaCar_mpg.csv](https://github.com/DougUOT/MechaCar_Statistical_Analysis/blob/main/Resources/MechaCar_mpg.csv) and [Suspension_Coil.csv](https://github.com/DougUOT/MechaCar_Statistical_Analysis/blob/main/Resources/Suspension_Coil.csv)
 * Software & Data Tools: R Studio 2021.09.2 and R
 
 ## Results & Code

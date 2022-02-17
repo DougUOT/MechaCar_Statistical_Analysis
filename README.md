@@ -35,7 +35,7 @@ CODE & IMAGE:
 
 Follow below the final equation with six variables:
 
- mgg = (-104.0)interceot + (6.267)vehicle_lenght + (0.001245)vehicle_weight + (0.06877)spoiler_angle + (3.546)ground_cleareance + (-3.411)AWD
+ mgg = (-104.0)intercept + (6.267)vehicle_lenght + (0.001245)vehicle_weight + (0.06877)spoiler_angle + (3.546)ground_cleareance + (-3.411)AWD
 
 ![](https://github.com/DougUOT/MechaCar_Statistical_Analysis/blob/main/Resources/Images/Capture15_1_1.PNG)
 

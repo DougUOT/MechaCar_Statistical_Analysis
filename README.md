@@ -5,9 +5,7 @@ Learn how to use R and statistics in order to analyze vehicle data
 
 In this project, we will learn how to design statistical studies and interpret study results, taking on more advanced data engineering problems. Also, in this project, we will cover the basics of R, including reading in the dataset, manipulating the data, performing calculations, and visualizing the data using a variety of 2D plots. Additionally, we will use R to perform all of our statistical tests and analyses. 
 
-This assignment is related to the Bootcamp Data Analytics from the University of Toronto. It comprises the goals below for this module: 
-
-Follow below the goals for this module:
+Follow below the goals for this project:
 
 1) Objective 1: Linear Regression to Predict MPG
 2) Objective 2: Summary Statistics on Suspension Coils
